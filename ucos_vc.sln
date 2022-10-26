@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31515.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ucos_vc", "ucos_vc.vcxproj", "{75B42607-BF4B-48BB-AD7A-69BB4164B858}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{75B42607-BF4B-48BB-AD7A-69BB4164B858}.Debug|x86.ActiveCfg = Debug|Win32
+		{75B42607-BF4B-48BB-AD7A-69BB4164B858}.Debug|x86.Build.0 = Debug|Win32
+		{75B42607-BF4B-48BB-AD7A-69BB4164B858}.Release|x86.ActiveCfg = Release|Win32
+		{75B42607-BF4B-48BB-AD7A-69BB4164B858}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F40286A5-7F31-45D7-8306-C884902CF5FF}
+	EndGlobalSection
+EndGlobal

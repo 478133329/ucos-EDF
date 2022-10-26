@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{ed8bcd6b-34a5-43ab-8f2a-50eaed7afe3b}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Source Files\UCOS">
+      <UniqueIdentifier>{4ed62350-c327-497c-93b5-c0082470d14d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\UCOS\cpu">
+      <UniqueIdentifier>{11a7fd05-3092-4135-9daf-acfe392b707e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\UCOS\cfg">
+      <UniqueIdentifier>{72487334-ca7f-4975-b745-a80ffb9c0de6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\UCOS\core">
+      <UniqueIdentifier>{ebeee3d2-dc1e-4a1e-a9a0-886ce42fb375}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\user">
+      <UniqueIdentifier>{f68c5f8b-3871-4ef5-86bd-5561922acb1b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="UCOS\CPU\os_cpu.c">
+      <Filter>Source Files\UCOS\cpu</Filter>
+    </ClCompile>
+    <ClCompile Include="UCOS\SOURCE\os_core.c">
+      <Filter>Source Files\UCOS\core</Filter>
+    </ClCompile>
+    <ClCompile Include="UCOS\SOURCE\os_flag.c">
+      <Filter>Source Files\UCOS\core</Filter>
+    </ClCompile>
+    <ClCompile Include="UCOS\SOURCE\os_mbox.c">
+      <Filter>Source Files\UCOS\core</Filter>
+    </ClCompile>
+    <ClCompile Include="UCOS\SOURCE\os_mem.c">
+      <Filter>Source Files\UCOS\core</Filter>
+    </ClCompile>
+    <ClCompile Include="UCOS\SOURCE\os_mutex.c">
+      <Filter>Source Files\UCOS\core</Filter>
+    </ClCompile>
+    <ClCompile Include="UCOS\SOURCE\os_q.c">
+      <Filter>Source Files\UCOS\core</Filter>
+    </ClCompile>
+    <ClCompile Include="UCOS\SOURCE\os_sem.c">
+      <Filter>Source Files\UCOS\core</Filter>
+    </ClCompile>
+    <ClCompile Include="UCOS\SOURCE\os_task.c">
+      <Filter>Source Files\UCOS\core</Filter>
+    </ClCompile>
+    <ClCompile Include="UCOS\SOURCE\os_time.c">
+      <Filter>Source Files\UCOS\core</Filter>
+    </ClCompile>
+    <ClCompile Include="UCOS\SOURCE\os_tmr.c">
+      <Filter>Source Files\UCOS\core</Filter>
+    </ClCompile>
+    <ClCompile Include="user\usercode.c">
+      <Filter>Source Files\user</Filter>
+    </ClCompile>
+    <ClCompile Include="main.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="UCOS\CPU\OS_CPU.H">
+      <Filter>Source Files\UCOS\cpu</Filter>
+    </ClInclude>
+    <ClInclude Include="UCOS\Config\INCLUDES.H">
+      <Filter>Source Files\UCOS\cfg</Filter>
+    </ClInclude>
+    <ClInclude Include="UCOS\Config\OS_CFG.H">
+      <Filter>Source Files\UCOS\cfg</Filter>
+    </ClInclude>
+    <ClInclude Include="UCOS\SOURCE\uCOS_II.H">
+      <Filter>Source Files\UCOS\core</Filter>
+    </ClInclude>
+    <ClInclude Include="user\usercode.h">
+      <Filter>Source Files\user</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

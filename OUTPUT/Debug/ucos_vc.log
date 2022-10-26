@@ -1,0 +1,12 @@
+﻿cl : 命令行  warning D9035: “Gm”选项已否决，并将在将来的版本中移除
+cl : 命令行  warning D9007: “/Gm”需要“/Zi 或 /ZI”；选项被忽略
+  os_core.c
+D:\VisualStudioWorkspace\ucosexperiment-vs2019\UCOS\SOURCE\os_core.c(940,9): warning C4013: “printf”未定义；假设外部返回 int
+D:\VisualStudioWorkspace\ucosexperiment-vs2019\UCOS\SOURCE\os_core.c(1751,21): warning C4244: “=”: 从“INT16U”转换到“INT8U”，可能丢失数据
+D:\VisualStudioWorkspace\ucosexperiment-vs2019\UCOS\SOURCE\os_core.c(1764,61): warning C4018: “<”: 有符号/无符号不匹配
+D:\VisualStudioWorkspace\ucosexperiment-vs2019\UCOS\SOURCE\os_core.c(1765,60): warning C4018: “<”: 有符号/无符号不匹配
+D:\VisualStudioWorkspace\ucosexperiment-vs2019\UCOS\SOURCE\os_core.c(1777,21): warning C4244: “=”: 从“INT16U”转换到“INT8U”，可能丢失数据
+  main.c
+D:\VisualStudioWorkspace\ucosexperiment-vs2019\main.c(79,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  正在生成代码...
+  ucos_vc.vcxproj -> D:\VisualStudioWorkspace\ucosexperiment-vs2019\OUTPUT\Debug\ucos_vc.exe
